@@ -122,7 +122,7 @@ function respond() {
 
   else if(request.text && botRegexTw.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.twitch.tv/"+request.text.substring(8,request.text.length));
+    postMessage("http://www.twitch.tv/cgadgetz"+request.text.substring(8,request.text.length));
     this.res.end();
   } 
   else if(request.text && botRegexSb.test(request.text)) {
