@@ -45,7 +45,7 @@ function respond() {
   } 
   else if(request.text && botRegexDnuts.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("deez nuts!""http://giphy.com/gifs/lol-vine-deez-nuts-CYU3D3bQnlLIk");
+    postMessage("http://giphy.com/gifs/nuts-deez-dzizXvpoqPJao");
     this.res.end();
   } 
   else if(request.text && botRegexDaf.test(request.text)) {
