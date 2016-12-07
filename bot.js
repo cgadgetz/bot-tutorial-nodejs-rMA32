@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/;
+      botRegexSlut = /^\/slut/; botRegex4thdown = /^\/4th down/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/;
@@ -28,9 +28,9 @@ function respond() {
     postMessage("https://i.groupme.com/640x364.jpeg.f8a0e216bf7e42ed9a86b3ae23cc2ff1.large");
     this.res.end();
   } 
-  else if(request.text && botRegexStop.test(request.text)) {
+  else if(request.text && botRegex4thdown.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Stop appropriating black culture");
+    postMessage("http://i.imgur.com/17wu5iG.png");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
