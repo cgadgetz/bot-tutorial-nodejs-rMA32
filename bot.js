@@ -97,7 +97,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("http://bit.ly/UFLLeagueRules");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
@@ -115,7 +115,7 @@ function respond() {
     this.res.writeHead(200);
     var req = request.text.substring(5,request.text.length);
     var rep = req.replace(/ /,"+");
-    postMessage("http://daddyleagues.com/maddenall32/players?name="+rep+"&position=all&team=all");
+    postMessage("http://daddyleagues.com/UnitedFL/players?name="+rep+"&position=all&team=all");
     
     this.res.end();
   }  
@@ -127,7 +127,7 @@ function respond() {
   } 
   else if(request.text && botRegexSb.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.reddit.com/r/maddenall32");
+    postMessage("http://daddleagues.com/UnitedFL");
     this.res.end();
   } 
   else if(request.text && botRegexSh.test(request.text)) {
@@ -137,7 +137,7 @@ function respond() {
   } 
   else if(request.text && botRegexWk.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1kJqQWCq3RKiTrd4f71FFNKr-Y0ppJzjk0fSF0rP6Bto/edit?usp=sharing");
+    postMessage("contactlist");
     this.res.end();
   } 
   else if(request.text && botODB.test(request.text)) {
@@ -162,7 +162,7 @@ function respond() {
   }
   else if(request.text && botRegexSchedule.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1EORExkB6HNLZhi22mRo2Xmo6Yx90Em2rGNAYlAdjTeI/edit?usp=drive_web");
+    postMessage("schedule");
     this.res.end();
   }
   
