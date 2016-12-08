@@ -63,7 +63,7 @@ function respond() {
     postMessage("http://i.imgur.com/9V6ZnvD.png");
     this.res.end();
   } 
-  else if(request.text && botRegexScrotes.test(request.text)) {
+  else if(request.text && botRegexFU621.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.youtube.com/watch?v=aJY4AOFoaZI");
     this.res.end();
