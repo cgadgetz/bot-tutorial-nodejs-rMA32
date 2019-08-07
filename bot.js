@@ -10,7 +10,7 @@ function respond() {
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexSlut = /^\/slut/; botRegex4thdown = /^\/4th down/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexDnuts = /^\/who/; botRegexBrye = /^\/brye/;
+      botRegexProp = /^\/prop/;botRegexCom = /^\/commish/; botRegexDnuts = /^\/who/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexFU621 = /^\/FU/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/;
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -38,9 +38,9 @@ function respond() {
     postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
     this.res.end();
   }
-  else if(request.text && botRegexKys.test(request.text)) {
+  else if(request.text && botRegexCom.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.wikihow.com/Tie-a-Noose");
+    postMessage(" @Bmorelikeme81 @HimBmore @bmoretough @ibjack @dcolbert36 @cgadgetz ");
     this.res.end();
   } 
   else if(request.text && botRegexDnuts.test(request.text)) {
