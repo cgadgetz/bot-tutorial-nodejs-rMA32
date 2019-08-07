@@ -30,7 +30,7 @@ function respond() {
   } 
   else if(request.text && botRegex4thdown.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/17wu5iG.png");
+    postMessage("http://imgur.com/a/z4EMDAV");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
